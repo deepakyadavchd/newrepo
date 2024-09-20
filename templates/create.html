@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css'%}">
+</head>
+<body>
+    
+<form method="post" id="formid">
+
+    Roll No <input type="number"><br><br>
+    Name <input type="text"><br><br>
+    Marks <input type="number"><br><br>
+    Result <select>
+      <option value="pass">Pass</option>
+      <option value="fail">Fail</option>
+    </select><br><br><br>
+    <button type="submit" name="btnsbt" value="btnkivalue"> Submit </button>
+    
+    
+    </form>
+</body>
+</html>
